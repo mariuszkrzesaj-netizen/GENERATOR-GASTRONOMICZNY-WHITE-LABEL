@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="m-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#070D1E" />
+    </linearGradient>
+    <linearGradient id="m-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#B48E25" />
+    </linearGradient>
+    <linearGradient id="m-goldLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+
+  <!-- Full-bleed background (no rx, fills 100% of the canvas for maskable) -->
+  <rect width="512" height="512" fill="url(#m-bg)" />
+
+  <!-- Inner Safe Zone Content (Scaled to 75% and centered) -->
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Truck Graphics -->
+    <g transform="translate(68, 110)">
+      <!-- Cargo Body Box -->
+      <rect x="10" y="34" width="240" height="130" rx="8" fill="#1C2541" fill-opacity="0.9" stroke="url(#m-gold)" stroke-width="4" />
+      <rect x="25" y="164" width="220" height="14" rx="2" fill="#334155" stroke="#D4AF37" stroke-width="2" />
+      <line x1="70" y1="34" x2="70" y2="164" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.5" />
+      <line x1="130" y1="34" x2="130" y2="164" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.5" />
+      <line x1="190" y1="34" x2="190" y2="164" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.5" />
+
+      <!-- Driver Cab -->
+      <path d="M 256 75 L 315 75 L 345 120 L 358 120 L 358 178 L 256 178 Z" fill="#111827" stroke="url(#m-gold)" stroke-width="4" />
+      <polygon points="266,85 308,85 334,122 266,122" fill="#38BDF8" fill-opacity="0.4" stroke="#38BDF8" stroke-width="2" />
+
+      <!-- Wheels -->
+      <g transform="translate(85, 178)">
+        <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="url(#m-gold)" stroke-width="4" />
+        <circle cx="0" cy="0" r="14" fill="#334155" stroke="#FCD34D" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#D4AF37" />
+      </g>
+      <g transform="translate(310, 178)">
+        <circle cx="0" cy="0" r="28" fill="#0F172A" stroke="url(#m-gold)" stroke-width="4" />
+        <circle cx="0" cy="0" r="14" fill="#334155" stroke="#FCD34D" stroke-width="2" />
+        <circle cx="0" cy="0" r="5" fill="#D4AF37" />
+      </g>
+    </g>
+
+    <!-- Typography -->
+    <g transform="translate(256, 380)" text-anchor="middle">
+      <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="46" fill="url(#m-goldLight)" letter-spacing="4">NOWA FIRMA</text>
+      <text y="34" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="18" fill="#94A3B8" letter-spacing="6">KREATOR ZABUDÓW</text>
+    </g>
+  </g>
+</svg>

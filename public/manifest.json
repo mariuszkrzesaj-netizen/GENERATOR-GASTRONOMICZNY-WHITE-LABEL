@@ -1,0 +1,62 @@
+{
+  "id": "/",
+  "name": "Kreator Zabudów Nowa Firma",
+  "short_name": "Nowa Firma",
+  "description": "Profesjonalny inżynieryjny konfigurator systemów zabudów dla pojazdów użytkowych Nowa Firma.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0B132B",
+  "background_color": "#070D1E",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Studio CAD 2D/3D",
+      "short_name": "CAD Studio",
+      "description": "Przejdź do parametrycznego konfiguratora zabudowy",
+      "url": "/?view=cad",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kalkulator Osi BBG",
+      "short_name": "Naciski Osi",
+      "description": "Sprawdź bilans nacisku osi i homologację CoC",
+      "url": "/?view=axle",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Szablony OEM",
+      "short_name": "Szablony",
+      "description": "Wczytaj gotowy wzorzec zabudowy Iveco / MB / Renault / MAN",
+      "url": "/?view=presets",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"]
+}

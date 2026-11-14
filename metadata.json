@@ -1,0 +1,8 @@
+{
+  "name": "Remix KREATOR ZABUDOW WHITE LABEL V.20",
+  "description": "Profesjonalne projektowanie i konfiguracja systemów zabudów dla pojazdów użytkowych, furgonów i podwozi dostawczych.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

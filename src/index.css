@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #0f172a !important;
+  }
+  header, footer, nav, button, .no-print {
+    display: none !important;
+  }
+  .printable-sheet {
+    background: #ffffff !important;
+    color: #0f172a !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  .printable-sheet * {
+    color: #0f172a !important;
+    border-color: #cbd5e1 !important;
+  }
+  .printable-sheet table thead {
+    background: #f1f5f9 !important;
+  }
+}
